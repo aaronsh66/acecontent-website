@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample: Website Copy for Clearpath Advisory — AceContent Co.</title>
+  <meta name="description" content="Full website copy sample for Clearpath Advisory, a boutique accounting firm — Homepage, About Us, Services, and Contact page copy.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['Merriweather', 'Georgia', 'serif']
+          },
+          colors: {
+            brand: { 700: '#1e3a5f', 800: '#1e2d4a' },
+            accent: { 500: '#f59e0b', 600: '#d97706' },
+            navy: {
+              50:  '#f0f4fa',
+              100: '#d9e2f0',
+              200: '#b3c5e0',
+              400: '#5a7db0',
+              500: '#3d64a0',
+              600: '#2d4f8a',
+              700: '#1e3a6e',
+              800: '#162d57',
+              900: '#0f1f3d',
+            },
+            gold: {
+              50:  '#fffbf0',
+              100: '#fef3c7',
+              200: '#fde68a',
+              300: '#fcd34d',
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+              700: '#b45309',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .body-serif { font-family: 'Merriweather', Georgia, serif; }
+    .page-tab { transition: all 0.2s ease; }
+    .page-tab.active { background-color: #1e3a6e; color: white; }
+    .page-section { display: none; }
+    .page-section.active { display: block; }
+  </style>
+</head>
+<body class="bg-navy-50 text-gray-800">
+
+  <!-- Top bar -->
+  <div class="bg-brand-700 text-white text-center py-3 px-4 text-sm">
+    📝 This is a portfolio sample by <a href="/" class="underline font-semibold">AceContent Co.</a> — <a href="/#free-sample" class="underline">Get a free sample for your business →</a>
+  </div>
+
+  <!-- Nav -->
+  <nav class="border-b border-navy-200 py-4 px-6 bg-white">
+    <div class="max-w-5xl mx-auto flex items-center justify-between">
+      <a href="/" class="text-lg font-bold text-brand-700">Ace<span class="text-accent-500">Content</span></a>
+      <div class="flex items-center gap-2 text-xs text-gray-500">
+        <span class="bg-navy-100 text-navy-700 px-2 py-1 rounded-full font-medium">Professional Services</span>
+        <span class="bg-gold-100 text-gold-700 px-2 py-1 rounded-full font-medium">Website Copy</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <div class="bg-white border-b border-navy-100">
+    <div class="max-w-5xl mx-auto px-6 pt-8 pb-6">
+      <p class="text-sm font-medium text-navy-600">Written for Clearpath Advisory — Boutique Accounting Firm</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-2">Full Website Copy — 4 Pages</h1>
+      <p class="text-gray-500 text-base max-w-2xl">Homepage, About Us, Services, and Contact — complete, ready-to-publish website copy for a boutique accounting firm. Professional without the jargon. Trust-building without the clichés.</p>
+
+      <!-- Page tabs -->
+      <div class="mt-6 flex flex-wrap gap-2">
+        <button onclick="showPage('homepage')" id="tab-homepage" class="page-tab active text-sm font-semibold px-4 py-2 rounded-lg border border-navy-700 text-navy-700">🏠 Homepage</button>
+        <button onclick="showPage('about')" id="tab-about" class="page-tab text-sm font-semibold px-4 py-2 rounded-lg border border-gray-200 text-gray-600 hover:border-navy-400 hover:text-navy-700">👥 About Us</button>
+        <button onclick="showPage('services')" id="tab-services" class="page-tab text-sm font-semibold px-4 py-2 rounded-lg border border-gray-200 text-gray-600 hover:border-navy-400 hover:text-navy-700">📋 Services</button>
+        <button onclick="showPage('contact')" id="tab-contact" class="page-tab text-sm font-semibold px-4 py-2 rounded-lg border border-gray-200 text-gray-600 hover:border-navy-400 hover:text-navy-700">✉️ Contact</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-6 py-10">
+
+    <!-- ============================================================
+         PAGE 1: HOMEPAGE
+    ============================================================ -->
+    <div id="page-homepage" class="page-section active">
+      <div class="mb-4 flex items-center gap-3">
+        <div class="bg-navy-700 text-white text-xs font-bold px-3 py-1 rounded-full">PAGE 1 / 4</div>
+        <span class="text-sm text-gray-500">Homepage</span>
+      </div>
+
+      <!-- Hero section copy -->
+      <div class="bg-gradient-to-br from-navy-800 to-navy-900 text-white rounded-2xl p-8 mb-5 shadow-xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+        <div class="absolute bottom-0 left-0 w-48 h-48 bg-navy-600/30 rounded-full translate-y-1/2 -translate-x-1/2"></div>
+        <div class="relative">
+          <div class="inline-block bg-gold-500/20 border border-gold-400/30 text-gold-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-5">
+            Boutique Accounting · Established 2012
+          </div>
+          <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
+            Finally, an accountant who explains things<br class="hidden md:block">
+            <span class="text-gold-400">in plain English.</span>
+          </h2>
+          <p class="body-serif text-navy-200 text-base md:text-lg leading-relaxed mb-6 max-w-2xl">
+            Clearpath Advisory works with founders, freelancers, and growing businesses who need financial clarity — not a thick report they'll never read. We handle the numbers so you can run your business with confidence.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <div class="inline-block bg-gold-500 text-navy-900 px-7 py-3.5 rounded-xl font-bold text-base cursor-default">
+              Book a Free Discovery Call →
+            </div>
+            <div class="inline-block border border-white/30 text-white px-7 py-3.5 rounded-xl font-semibold text-base cursor-default">
+              See Our Services
+            </div>
+          </div>
+          <div class="mt-5 flex flex-wrap gap-5 text-xs text-navy-300">
+            <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>CPA-certified team</span>
+            <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>12+ years in practice</span>
+            <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>Serving 200+ clients</span>
+            <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span>No locked-in contracts</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust strip -->
+      <div class="bg-white rounded-xl border border-gray-100 p-5 mb-5 shadow-sm">
+        <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider text-center mb-4">Trusted by businesses across these industries</p>
+        <div class="flex flex-wrap justify-center gap-6 text-sm font-semibold text-gray-400">
+          <span>Real Estate</span><span class="text-gray-200">·</span>
+          <span>Technology</span><span class="text-gray-200">·</span>
+          <span>Healthcare</span><span class="text-gray-200">·</span>
+          <span>Creative Agencies</span><span class="text-gray-200">·</span>
+          <span>E-Commerce</span><span class="text-gray-200">·</span>
+          <span>Professional Services</span>
+        </div>
+      </div>
+
+      <!-- Value props -->
+      <div class="grid md:grid-cols-3 gap-4 mb-5">
+        <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+          <div class="w-10 h-10 bg-navy-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2">You'll actually understand your finances</h3>
+          <p class="body-serif text-sm text-gray-600 leading-relaxed">We don't hand you a 40-page report and disappear. Every number gets explained in context. Every decision gets a reason. You'll leave every meeting knowing more than when you arrived.</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+          <div class="w-10 h-10 bg-gold-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-gold-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2">Responsive when it matters</h3>
+          <p class="body-serif text-sm text-gray-600 leading-relaxed">CPA anxiety is real. When you email us with a question, you hear back the same day — from a qualified accountant, not a ticketing system. We're a boutique firm; you're never just a client number.</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+          <div class="w-10 h-10 bg-navy-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2">Proactive, not just reactive</h3>
+          <p class="body-serif text-sm text-gray-600 leading-relaxed">We don't wait for tax season to think about your finances. Clearpath clients get quarterly strategy check-ins, proactive tax planning year-round, and a standing call when something significant changes in your business.</p>
+        </div>
+      </div>
+
+      <!-- Testimonial block -->
+      <div class="bg-navy-900 text-white rounded-2xl p-8 mb-5 shadow-xl">
+        <div class="text-gold-400 text-4xl font-serif mb-4">"</div>
+        <p class="body-serif text-navy-100 text-lg leading-relaxed mb-6">I'd had three accountants before Clearpath. They all did the work, but I never felt like I understood what was happening with my own money. My first quarterly review with Clearpath's team took 45 minutes, and I walked out understanding my business better than I ever had. That's the difference.</p>
+        <div class="flex items-center gap-4 border-t border-navy-700 pt-5">
+          <div class="w-12 h-12 bg-gradient-to-br from-navy-500 to-gold-500 rounded-full flex items-center justify-center text-white font-bold">JH</div>
+          <div>
+            <div class="font-bold text-white">Jamie H.</div>
+            <div class="text-navy-300 text-sm">Founder, Arrowood Creative Studio · Client since 2020</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-white rounded-xl border border-gray-100 p-5 shadow-sm text-center">
+          <div class="text-3xl font-extrabold text-navy-700">12+</div>
+          <div class="text-sm text-gray-500 mt-1">Years in practice</div>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 p-5 shadow-sm text-center">
+          <div class="text-3xl font-extrabold text-navy-700">200+</div>
+          <div class="text-sm text-gray-500 mt-1">Active clients</div>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 p-5 shadow-sm text-center">
+          <div class="text-3xl font-extrabold text-gold-600">97%</div>
+          <div class="text-sm text-gray-500 mt-1">Client retention rate</div>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-100 p-5 shadow-sm text-center">
+          <div class="text-3xl font-extrabold text-navy-700">4h</div>
+          <div class="text-sm text-gray-500 mt-1">Avg. response time</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         PAGE 2: ABOUT US
+    ============================================================ -->
+    <div id="page-about" class="page-section">
+      <div class="mb-4 flex items-center gap-3">
+        <div class="bg-navy-700 text-white text-xs font-bold px-3 py-1 rounded-full">PAGE 2 / 4</div>
+        <span class="text-sm text-gray-500">About Us</span>
+      </div>
+
+      <!-- Hero -->
+      <div class="bg-white rounded-2xl border border-gray-100 p-8 mb-5 shadow-sm">
+        <div class="max-w-2xl">
+          <div class="inline-block bg-navy-100 text-navy-700 text-xs font-bold px-3 py-1.5 rounded-full mb-4 uppercase tracking-wider">About Clearpath Advisory</div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">We started Clearpath because good accounting shouldn't feel like a black box.</h2>
+          <p class="body-serif text-gray-600 leading-relaxed text-base">Most accounting firms are organized around efficiency — serving as many clients as possible, as quickly as possible. Nothing wrong with that. But it means clients rarely understand what's being done on their behalf, and rarely feel confident making business decisions with the financial information they receive.</p>
+        </div>
+      </div>
+
+      <!-- Story -->
+      <div class="bg-white rounded-2xl border border-gray-100 p-8 mb-5 shadow-sm">
+        <h3 class="text-xl font-bold text-gray-900 mb-4">How Clearpath Started</h3>
+        <div class="prose max-w-none body-serif text-gray-700 leading-relaxed space-y-4 text-sm md:text-base">
+          <p>In 2012, our founder Catherine Marsh left a Big Four firm with a simple conviction: small and mid-sized businesses deserve the same quality of financial thinking that large corporations get — delivered in a way that actually makes sense to the people running the business.</p>
+          <p>She'd spent 8 years in corporate tax and advisory work, watching brilliant entrepreneurs make avoidable financial mistakes because their advisors spoke in a dialect nobody else understood. Jargon as a moat. Complexity as a feature. Reports that explained what happened without explaining what to do about it.</p>
+          <p>Clearpath was built around a different model: fewer clients, deeper relationships, and a commitment to leaving every client more financially literate than when they arrived. Over twelve years, that model has attracted 200+ clients who stay — our retention rate sits above 97% — because they feel genuinely supported, not just serviced.</p>
+          <p>Today, Clearpath has grown to a team of seven CPAs and financial advisors. We're still boutique by design. We take on a limited number of new clients each quarter so we can continue to do our best work for the ones we have.</p>
+        </div>
+      </div>
+
+      <!-- Team -->
+      <div class="bg-white rounded-2xl border border-gray-100 p-8 mb-5 shadow-sm">
+        <h3 class="text-xl font-bold text-gray-900 mb-6">The Team</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="text-center">
+            <div class="w-20 h-20 bg-gradient-to-br from-navy-400 to-navy-700 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">CM</div>
+            <h4 class="font-bold text-gray-900">Catherine Marsh</h4>
+            <p class="text-sm text-gold-600 font-medium mb-2">Founder & Lead Advisor</p>
+            <p class="body-serif text-xs text-gray-500 leading-relaxed">CPA, CA. 20 years in public accounting. Specialize in growth-stage business strategy, owner compensation, and tax planning for founders.</p>
+          </div>
+          <div class="text-center">
+            <div class="w-20 h-20 bg-gradient-to-br from-navy-500 to-gold-600 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">RT</div>
+            <h4 class="font-bold text-gray-900">Raj Thiruvenkatam</h4>
+            <p class="text-sm text-gold-600 font-medium mb-2">Senior Tax Advisor</p>
+            <p class="body-serif text-xs text-gray-500 leading-relaxed">CPA, MTax. Expert in corporate and personal tax optimization, estate planning, and cross-border taxation. Formerly with Deloitte Canada.</p>
+          </div>
+          <div class="text-center">
+            <div class="w-20 h-20 bg-gradient-to-br from-gold-400 to-navy-600 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">SO</div>
+            <h4 class="font-bold text-gray-900">Sarah Oduya</h4>
+            <p class="text-sm text-gold-600 font-medium mb-2">Financial Controller</p>
+            <p class="body-serif text-xs text-gray-500 leading-relaxed">CPA, CMA. Specialize in financial reporting, management accounting, and cash flow forecasting for growing businesses.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Values -->
+      <div class="bg-navy-900 rounded-2xl p-8 text-white mb-5 shadow-xl">
+        <h3 class="text-xl font-bold mb-6 text-gold-400">What We Believe</h3>
+        <div class="grid md:grid-cols-2 gap-5">
+          <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+            <h4 class="font-bold text-white mb-2">Clarity is a service.</h4>
+            <p class="body-serif text-navy-200 text-sm leading-relaxed">A financial report that confuses you is a failed financial report, regardless of how technically correct it is. We've made a commitment to explain everything in the language you actually think in.</p>
+          </div>
+          <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+            <h4 class="font-bold text-white mb-2">Relationships over volume.</h4>
+            <p class="body-serif text-navy-200 text-sm leading-relaxed">We deliberately limit how many new clients we take on each quarter. If we can't give you our best work, we'd rather refer you to someone who can. Our reputation is built on retention, not growth at all costs.</p>
+          </div>
+          <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+            <h4 class="font-bold text-white mb-2">Proactive beats reactive.</h4>
+            <p class="body-serif text-navy-200 text-sm leading-relaxed">The best tax planning happens in January, not April. The best cash flow conversation happens before the crunch, not during it. We check in before you need to call us.</p>
+          </div>
+          <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+            <h4 class="font-bold text-white mb-2">No surprises.</h4>
+            <p class="body-serif text-navy-200 text-sm leading-relaxed">Fixed-fee engagements on every service. You know exactly what you're paying before we start. No scope creep, no invoice surprises. Financial advice shouldn't create financial anxiety.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         PAGE 3: SERVICES
+    ============================================================ -->
+    <div id="page-services" class="page-section">
+      <div class="mb-4 flex items-center gap-3">
+        <div class="bg-navy-700 text-white text-xs font-bold px-3 py-1 rounded-full">PAGE 3 / 4</div>
+        <span class="text-sm text-gray-500">Services</span>
+      </div>
+
+      <!-- Intro -->
+      <div class="bg-white rounded-2xl border border-gray-100 p-8 mb-5 shadow-sm">
+        <div class="max-w-2xl">
+          <div class="inline-block bg-gold-100 text-gold-700 text-xs font-bold px-3 py-1.5 rounded-full mb-4 uppercase tracking-wider">What We Do</div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">Accounting services for businesses that are going somewhere.</h2>
+          <p class="body-serif text-gray-600 leading-relaxed">We work best with founders and business owners who are past the "spreadsheet-and-hope" stage and ready for real financial infrastructure. Every engagement is fixed-fee and scoped upfront — no surprises.</p>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div class="space-y-4 mb-5">
+
+        <!-- Service 1 -->
+        <div class="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+          <div class="bg-gradient-to-r from-navy-800 to-navy-700 p-5 text-white">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-gold-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-lg">Tax Planning & Preparation</h3>
+                <p class="text-navy-200 text-sm">Corporate and personal · Year-round strategy · Proactive minimization</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <p class="body-serif text-gray-700 leading-relaxed mb-5 text-sm">Tax work done well isn't something you think about once a year. We build a tax strategy for each client at the start of every fiscal year — reviewing structure, compensation, investments, and timing — so that when filing season arrives, there are no surprises and no missed opportunities.</p>
+            <div class="grid md:grid-cols-2 gap-4 mb-5">
+              <div>
+                <h4 class="font-semibold text-gray-900 text-sm mb-3">What's included:</h4>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Annual tax return preparation (corporate + personal)</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Year-round tax strategy planning</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Owner compensation and dividend planning</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>HST/GST preparation and filing</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>CRA audit support and representation</li>
+                </ul>
+              </div>
+              <div class="bg-navy-50 rounded-xl p-4">
+                <div class="text-xs font-semibold text-navy-700 uppercase tracking-wider mb-2">Best for:</div>
+                <p class="body-serif text-sm text-navy-700">Incorporated business owners, professionals, and founders who want more than just compliance — they want a strategy.</p>
+                <div class="mt-3 pt-3 border-t border-navy-200">
+                  <div class="text-xs text-gray-500">Starting from</div>
+                  <div class="text-xl font-bold text-navy-700">$3,200 / year</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+          <div class="bg-gradient-to-r from-gold-600 to-gold-700 p-5 text-white">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-lg">Bookkeeping & Financial Reporting</h3>
+                <p class="text-yellow-100 text-sm">Monthly close · Management accounts · Real-time visibility</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <p class="body-serif text-gray-700 leading-relaxed mb-5 text-sm">Reliable bookkeeping is the foundation of every other service we provide — and the most undervalued one. Done right, it means you always know exactly where your business stands financially: profitability by project, cash runway, accounts receivable aging, and month-over-month trends, delivered in a format that actually makes sense.</p>
+            <div class="grid md:grid-cols-2 gap-4 mb-5">
+              <div>
+                <h4 class="font-semibold text-gray-900 text-sm mb-3">What's included:</h4>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Monthly bookkeeping and bank reconciliation</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Monthly P&L, balance sheet, cash flow statement</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Accounts payable and receivable management</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Payroll processing</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Quarterly management review calls</li>
+                </ul>
+              </div>
+              <div class="bg-gold-50 rounded-xl p-4">
+                <div class="text-xs font-semibold text-gold-700 uppercase tracking-wider mb-2">Best for:</div>
+                <p class="body-serif text-sm text-gold-800">Growing businesses with $500K+ in revenue that have outgrown DIY bookkeeping and need accurate, timely financials every month.</p>
+                <div class="mt-3 pt-3 border-t border-gold-200">
+                  <div class="text-xs text-gray-500">Starting from</div>
+                  <div class="text-xl font-bold text-gold-700">$650 / month</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+          <div class="bg-gradient-to-r from-navy-700 to-navy-600 p-5 text-white">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-gold-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-white text-lg">CFO Advisory Services</h3>
+                <p class="text-navy-200 text-sm">Strategic finance · Budgeting · Cash flow · Growth planning</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <p class="body-serif text-gray-700 leading-relaxed mb-5 text-sm">You don't need a full-time CFO to think like one. Our fractional CFO service gives growing businesses access to strategic financial leadership on a flexible, right-sized basis — budgeting and forecasting, cash flow management, growth scenario modeling, and board-ready financial reporting — without the $250K salary.</p>
+            <div class="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 class="font-semibold text-gray-900 text-sm mb-3">What's included:</h4>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Annual budget and 3-year financial forecast</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Monthly cash flow forecasting</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>KPI dashboard design and tracking</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Scenario planning (hiring, expansion, pricing)</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Investor/lender financial preparation</li>
+                  <li class="flex items-start gap-2"><span class="text-gold-500 flex-shrink-0">✓</span>Monthly strategy call with senior advisor</li>
+                </ul>
+              </div>
+              <div class="bg-navy-50 rounded-xl p-4">
+                <div class="text-xs font-semibold text-navy-700 uppercase tracking-wider mb-2">Best for:</div>
+                <p class="body-serif text-sm text-navy-700">Businesses at a decision point — raising capital, entering a new market, hiring aggressively, or just needing a strategic financial partner to think alongside them.</p>
+                <div class="mt-3 pt-3 border-t border-navy-200">
+                  <div class="text-xs text-gray-500">Starting from</div>
+                  <div class="text-xl font-bold text-navy-700">$1,500 / month</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA row -->
+      <div class="bg-gradient-to-r from-navy-900 to-navy-800 rounded-2xl p-7 text-white text-center shadow-xl">
+        <h3 class="text-xl font-bold mb-2">Not sure which service fits your situation?</h3>
+        <p class="body-serif text-navy-200 mb-5 text-sm">Every engagement starts with a free 30-minute discovery call. We'll listen, ask the right questions, and tell you honestly which services will move the needle — and which ones aren't worth it yet.</p>
+        <div class="inline-block bg-gold-500 text-navy-900 px-7 py-3 rounded-xl font-bold cursor-default">Book a Free Discovery Call →</div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         PAGE 4: CONTACT
+    ============================================================ -->
+    <div id="page-contact" class="page-section">
+      <div class="mb-4 flex items-center gap-3">
+        <div class="bg-navy-700 text-white text-xs font-bold px-3 py-1 rounded-full">PAGE 4 / 4</div>
+        <span class="text-sm text-gray-500">Contact</span>
+      </div>
+
+      <!-- Intro -->
+      <div class="bg-gradient-to-br from-navy-800 to-navy-900 text-white rounded-2xl p-8 mb-5 shadow-xl">
+        <h2 class="text-3xl font-bold mb-3">Let's talk about your finances.<br><span class="text-gold-400">No jargon. No pressure.</span></h2>
+        <p class="body-serif text-navy-200 leading-relaxed max-w-xl">The first conversation is free and there's no obligation to engage. Most people leave with at least one useful insight, whether or not we work together.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-5 mb-5">
+        <!-- Contact form copy -->
+        <div class="bg-white rounded-2xl border border-gray-100 p-7 shadow-sm">
+          <h3 class="font-bold text-gray-900 text-lg mb-2">Book a Discovery Call</h3>
+          <p class="body-serif text-sm text-gray-500 mb-5">30 minutes. Free. We'll ask about your business, your current pain points, and what you're trying to accomplish. You'll leave with clarity, even if we're not the right fit.</p>
+          <!-- Mock form -->
+          <div class="space-y-4">
+            <div>
+              <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Your name</label>
+              <div class="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-400 bg-gray-50">Full name</div>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Business email</label>
+              <div class="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-400 bg-gray-50">you@yourbusiness.com</div>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Business type & revenue range</label>
+              <div class="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-400 bg-gray-50">e.g. Incorporated consulting firm, $400K–$800K revenue</div>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">What's the main thing you need help with?</label>
+              <div class="border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-400 bg-gray-50 h-20">Tell us what's on your mind — no need to have it perfectly figured out.</div>
+            </div>
+            <div class="bg-navy-700 text-white text-center py-3 rounded-xl font-bold cursor-default">Request a Discovery Call →</div>
+          </div>
+        </div>
+
+        <!-- Contact details + FAQ -->
+        <div class="space-y-4">
+          <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
+            <h3 class="font-bold text-gray-900 mb-4">Other ways to reach us</h3>
+            <div class="space-y-4">
+              <div class="flex items-start gap-3">
+                <div class="w-9 h-9 bg-navy-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-gray-900 text-sm">Email</div>
+                  <div class="body-serif text-sm text-gray-600">hello@clearpathadvisory.ca</div>
+                  <div class="text-xs text-gray-400 mt-0.5">We respond within 4 business hours</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-9 h-9 bg-navy-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-gray-900 text-sm">Phone</div>
+                  <div class="body-serif text-sm text-gray-600">(416) 555-0192</div>
+                  <div class="text-xs text-gray-400 mt-0.5">Mon–Fri, 9am–5pm EST</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-9 h-9 bg-navy-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-gray-900 text-sm">Office</div>
+                  <div class="body-serif text-sm text-gray-600">340 Bay Street, Suite 1400<br>Toronto, ON M5H 2S6</div>
+                  <div class="text-xs text-gray-400 mt-0.5">Meetings by appointment. Virtual available.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gold-50 border border-gold-200 rounded-2xl p-6 shadow-sm">
+            <h3 class="font-bold text-gray-900 mb-3">Before you reach out</h3>
+            <div class="space-y-3">
+              <div>
+                <div class="font-semibold text-gray-900 text-sm">Are we taking new clients?</div>
+                <p class="body-serif text-xs text-gray-600 mt-1 leading-relaxed">We accept a limited number of new clients each quarter to maintain service quality. We're currently accepting new clients — though this changes. If you're interested, don't wait.</p>
+              </div>
+              <div>
+                <div class="font-semibold text-gray-900 text-sm">What businesses are we the best fit for?</div>
+                <p class="body-serif text-xs text-gray-600 mt-1 leading-relaxed">Incorporated businesses and professionals with $300K–$10M in annual revenue. Founders who want a long-term advisory relationship, not just annual tax filing.</p>
+              </div>
+              <div>
+                <div class="font-semibold text-gray-900 text-sm">What if I just have a quick question?</div>
+                <p class="body-serif text-xs text-gray-600 mt-1 leading-relaxed">Email us. We answer general questions even if we're not in an active engagement — it's good karma and we genuinely enjoy talking about this stuff.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- AceContent CTA -->
+  <section class="bg-brand-700 text-white py-16 px-6 text-center">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Like what you see?</h2>
+      <p class="text-blue-100 mb-8">We'll write a free website copy sample like this for <em>your</em> business. No strings attached.</p>
+      <a href="/#free-sample" class="inline-block bg-accent-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-accent-600 transition">Get Your Free Sample →</a>
+    </div>
+  </section>
+
+  <footer class="py-8 text-center text-sm text-gray-400 border-t border-gray-100 bg-white">
+    <a href="/" class="text-brand-700 font-semibold hover:underline">AceContent Co.</a> — Premium AI-powered content for growing businesses
+  </footer>
+
+  <script>
+    function showPage(id) {
+      // Hide all sections
+      document.querySelectorAll('.page-section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.page-tab').forEach(t => {
+        t.classList.remove('active');
+        t.classList.remove('bg-navy-700', 'text-white', 'border-navy-700');
+        t.classList.add('border-gray-200', 'text-gray-600');
+      });
+      // Show selected
+      document.getElementById('page-' + id).classList.add('active');
+      var tab = document.getElementById('tab-' + id);
+      tab.classList.add('active');
+      tab.classList.remove('border-gray-200', 'text-gray-600');
+      tab.classList.add('bg-navy-700', 'text-white', 'border-navy-700');
+      // Scroll to top of main
+      window.scrollTo({ top: document.querySelector('main').offsetTop - 20, behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
