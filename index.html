@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AceContent Co. — Premium AI-Powered Content Agency</title>
+  <meta name="description" content="Premium content that reads like it was written by your best freelancer. Blog posts, email sequences, product descriptions — delivered in days, not weeks. Starting at $499/mo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            brand: { 50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 500: '#3b82f6', 600: '#2563eb', 700: '#1e3a5f', 800: '#1e2d4a', 900: '#0f172a' },
+            accent: { 400: '#fbbf24', 500: '#f59e0b', 600: '#d97706' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .gradient-text { background: linear-gradient(135deg, #1e3a5f 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+  <!-- Nav -->
+  <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm border-b border-gray-100 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold text-brand-700">Ace<span class="text-accent-500">Content</span></a>
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+        <a href="#services" class="hover:text-brand-700 transition">Services</a>
+        <a href="#portfolio" class="hover:text-brand-700 transition">Portfolio</a>
+        <a href="#pricing" class="hover:text-brand-700 transition">Pricing</a>
+        <a href="#free-sample" class="bg-brand-700 text-white px-5 py-2.5 rounded-lg hover:bg-brand-800 transition">Get Free Sample</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-32 pb-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+        Premium Content,<br><span class="gradient-text">Without the Premium Price Tag</span>
+      </h1>
+      <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10">
+        AI-powered content that reads like it was written by your best freelancer — blog posts, email sequences, product copy — delivered in days, not weeks.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#portfolio" class="bg-brand-700 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-brand-800 transition shadow-lg shadow-brand-700/20">See Our Work</a>
+        <a href="#free-sample" class="border-2 border-brand-700 text-brand-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-brand-50 transition">Get a Free Sample</a>
+      </div>
+      <p class="mt-8 text-sm text-gray-400">Trusted by startups, e-commerce brands, and growing businesses</p>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-20 bg-gray-50 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-4">How It Works</h2>
+      <p class="text-gray-600 text-center mb-14 max-w-xl mx-auto">From brief to published in three simple steps. No prompts, no AI tools to learn — just finished content.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-brand-100 text-brand-700 rounded-xl flex items-center justify-center text-xl font-bold mb-5">1</div>
+          <h3 class="font-semibold text-lg mb-3">Tell Us About Your Brand</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Quick onboarding form. We learn your voice, goals, audience, and style — so every piece sounds like <em>you</em>.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-accent-400/20 text-accent-600 rounded-xl flex items-center justify-center text-xl font-bold mb-5">2</div>
+          <h3 class="font-semibold text-lg mb-3">We Create Your Content</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Our editorial team writes, designs, and reviews every piece through a rigorous quality process. Nothing ships without approval.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-green-100 text-green-700 rounded-xl flex items-center justify-center text-xl font-bold mb-5">3</div>
+          <h3 class="font-semibold text-lg mb-3">You Publish & Grow</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Get publication-ready content delivered to your inbox. Blog posts, emails, social — formatted and ready to go.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-4">What We Create</h2>
+      <p class="text-gray-600 text-center mb-14 max-w-xl mx-auto">Every content type your business needs — written by experts, optimized for results.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-xl border border-gray-200 hover:border-brand-500 hover:shadow-md transition">
+          <div class="text-2xl mb-3">📝</div>
+          <h3 class="font-semibold mb-2">Blog Posts & Articles</h3>
+          <p class="text-sm text-gray-600">SEO-optimized, research-backed long-form content that drives organic traffic and establishes authority.</p>
+        </div>
+        <div class="p-6 rounded-xl border border-gray-200 hover:border-brand-500 hover:shadow-md transition">
+          <div class="text-2xl mb-3">📧</div>
+          <h3 class="font-semibold mb-2">Email Sequences</h3>
+          <p class="text-sm text-gray-600">Welcome flows, nurture campaigns, and promotional sequences that convert subscribers into customers.</p>
+        </div>
+        <div class="p-6 rounded-xl border border-gray-200 hover:border-brand-500 hover:shadow-md transition">
+          <div class="text-2xl mb-3">🛍️</div>
+          <h3 class="font-semibold mb-2">Product Descriptions</h3>
+          <p class="text-sm text-gray-600">Conversion-focused copy that makes products irresistible. Perfect for e-commerce and DTC brands.</p>
+        </div>
+        <div class="p-6 rounded-xl border border-gray-200 hover:border-brand-500 hover:shadow-md transition">
+          <div class="text-2xl mb-3">🚀</div>
+          <h3 class="font-semibold mb-2">Landing Pages</h3>
+          <p class="text-sm text-gray-600">High-converting page copy with clear value propositions, social proof, and compelling CTAs.</p>
+        </div>
+        <div class="p-6 rounded-xl border border-gray-200 hover:border-brand-500 hover:shadow-md transition">
+          <div class="text-2xl mb-3">📱</div>
+          <h3 class="font-semibold mb-2">Social Media</h3>
+          <p class="text-sm text-gray-600">Platform-specific posts with visuals. Scroll-stopping hooks, strategic hashtags, consistent brand voice.</p>
+        </div>
+        <div class="p-6 rounded-xl border border-gray-200 hover:border-brand-500 hover:shadow-md transition">
+          <div class="text-2xl mb-3">🌐</div>
+          <h3 class="font-semibold mb-2">Website Copy</h3>
+          <p class="text-sm text-gray-600">Clear, benefit-led copy for your entire site — from homepage to about page to services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-20 bg-gray-50 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-4">Our Work</h2>
+      <p class="text-gray-600 text-center mb-14 max-w-xl mx-auto">Real samples across industries. Click to read the full piece.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Sample 1 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition">
+          <div class="bg-brand-700 p-6 text-white">
+            <span class="text-xs font-medium bg-white/20 px-3 py-1 rounded-full">SaaS / Blog Post</span>
+            <h3 class="font-bold text-lg mt-4">5 Onboarding Emails That Actually Convert</h3>
+            <p class="text-sm text-blue-100 mt-2">TaskFlow — Project Management</p>
+          </div>
+          <div class="p-6">
+            <p class="text-sm text-gray-600 mb-4">A data-backed guide to onboarding email sequences that turn trial users into paying customers.</p>
+            <a href="https://docs.google.com/document/d/1vExvcrWELBBqwX-CC-v-k96AQmM1kW-Czo2RX9n2Vpg/edit?usp=sharing" target="_blank" class="text-brand-600 text-sm font-semibold hover:underline">Read Sample →</a>
+          </div>
+        </div>
+        <!-- Sample 2 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition">
+          <div class="bg-gradient-to-br from-pink-400 to-purple-500 p-6 text-white">
+            <span class="text-xs font-medium bg-white/20 px-3 py-1 rounded-full">Beauty / Product Copy</span>
+            <h3 class="font-bold text-lg mt-4">Clean Skincare Product Descriptions</h3>
+            <p class="text-sm text-pink-100 mt-2">Lumière Naturals — DTC Beauty</p>
+          </div>
+          <div class="p-6">
+            <p class="text-sm text-gray-600 mb-4">Sensory, benefit-focused product descriptions that make clean beauty products irresistible.</p>
+            <a href="https://docs.google.com/document/d/1hVimpTUfyDn3A3HMvIEn81HESXEwfMy2A7JxS64io7k/edit?usp=sharing" target="_blank" class="text-brand-600 text-sm font-semibold hover:underline">Read Sample →</a>
+          </div>
+        </div>
+        <!-- Sample 3 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition">
+          <div class="bg-gradient-to-br from-amber-600 to-orange-700 p-6 text-white">
+            <span class="text-xs font-medium bg-white/20 px-3 py-1 rounded-full">Food & Bev / Email Sequence</span>
+            <h3 class="font-bold text-lg mt-4">Welcome Email Sequence</h3>
+            <p class="text-sm text-amber-100 mt-2">Copper Kettle Coffee — Artisan Roaster</p>
+          </div>
+          <div class="p-6">
+            <p class="text-sm text-gray-600 mb-4">A 3-email welcome series that turns first-time visitors into loyal coffee subscribers.</p>
+            <a href="https://docs.google.com/document/d/1IQeBTdEHLp-lV8IBVO3Dk4jCYUimpWvR8pJweBU5x5w/edit?usp=sharing" target="_blank" class="text-brand-600 text-sm font-semibold hover:underline">Read Sample →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-4">Simple, Transparent Pricing</h2>
+      <p class="text-gray-600 text-center mb-14 max-w-xl mx-auto">50–60% less than traditional agencies. Same quality. Faster delivery.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Starter -->
+        <div class="rounded-2xl border border-gray-200 p-8 hover:border-brand-500 hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg mb-1">Starter</h3>
+          <p class="text-sm text-gray-500 mb-4">For businesses getting started with content</p>
+          <div class="mb-6">
+            <span class="text-4xl font-extrabold">$499</span>
+            <span class="text-gray-500">/month</span>
+          </div>
+          <ul class="space-y-3 text-sm text-gray-600 mb-8">
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 4 blog posts per month</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 4 featured images</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 10 social media posts</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> Dedicated account manager</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 2 revision rounds per piece</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> SEO optimization included</li>
+          </ul>
+          <a href="#free-sample" class="block text-center border-2 border-brand-700 text-brand-700 py-3 rounded-lg font-semibold hover:bg-brand-50 transition">Get Started</a>
+        </div>
+        <!-- Growth -->
+        <div class="rounded-2xl border-2 border-brand-700 p-8 shadow-lg relative">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-700 text-white text-xs font-bold px-4 py-1 rounded-full">MOST POPULAR</div>
+          <h3 class="font-semibold text-lg mb-1">Growth</h3>
+          <p class="text-sm text-gray-500 mb-4">For businesses scaling their content</p>
+          <div class="mb-6">
+            <span class="text-4xl font-extrabold">$999</span>
+            <span class="text-gray-500">/month</span>
+          </div>
+          <ul class="space-y-3 text-sm text-gray-600 mb-8">
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 8 blog posts per month</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 8 featured images</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 20 social media posts</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 1 email sequence (5 emails)</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> Everything in Starter</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> Brand voice matching</li>
+          </ul>
+          <a href="#free-sample" class="block text-center bg-brand-700 text-white py-3 rounded-lg font-semibold hover:bg-brand-800 transition">Get Started</a>
+        </div>
+        <!-- Scale -->
+        <div class="rounded-2xl border border-gray-200 p-8 hover:border-brand-500 hover:shadow-lg transition">
+          <h3 class="font-semibold text-lg mb-1">Scale</h3>
+          <p class="text-sm text-gray-500 mb-4">For businesses that need serious content volume</p>
+          <div class="mb-6">
+            <span class="text-4xl font-extrabold">$1,999</span>
+            <span class="text-gray-500">/month</span>
+          </div>
+          <ul class="space-y-3 text-sm text-gray-600 mb-8">
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 16 blog posts per month</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 16 featured images</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 30 social media posts</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 2 email sequences</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> 1 landing page per month</li>
+            <li class="flex items-start gap-2"><span class="text-green-500 mt-0.5">✓</span> Everything in Growth</li>
+          </ul>
+          <a href="#free-sample" class="block text-center border-2 border-brand-700 text-brand-700 py-3 rounded-lg font-semibold hover:bg-brand-50 transition">Get Started</a>
+        </div>
+      </div>
+      <p class="text-center text-sm text-gray-500 mt-8">Need a custom plan? <a href="mailto:hello@acecontent.co" class="text-brand-600 hover:underline">Let's talk</a></p>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="py-20 bg-gray-50 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-14">Why Businesses Choose AceContent</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-3xl font-extrabold text-brand-700 mb-2">3x</div>
+          <div class="text-sm text-gray-600">Faster than traditional agencies</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-extrabold text-brand-700 mb-2">60%</div>
+          <div class="text-sm text-gray-600">Less than agency pricing</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-extrabold text-brand-700 mb-2">2–3 days</div>
+          <div class="text-sm text-gray-600">Average turnaround time</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-extrabold text-brand-700 mb-2">0</div>
+          <div class="text-sm text-gray-600">AI tools for you to learn</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Free Sample CTA -->
+  <section id="free-sample" class="py-20 px-6">
+    <div class="max-w-2xl mx-auto">
+      <div class="bg-brand-700 rounded-2xl p-10 text-center text-white">
+        <h2 class="text-3xl font-bold mb-4">See the Quality Before You Commit</h2>
+        <p class="text-blue-100 mb-8 max-w-md mx-auto">We'll write a free blog post for your business — no strings attached. If you love it, let's talk.</p>
+        <form class="space-y-4 text-left max-w-md mx-auto" action="mailto:hello@acecontent.co" method="POST" enctype="text/plain">
+          <div>
+            <input type="text" name="company" placeholder="Company name" required class="w-full px-4 py-3 rounded-lg text-gray-800 bg-white placeholder-gray-400 focus:ring-2 focus:ring-accent-400 outline-none">
+          </div>
+          <div>
+            <input type="url" name="website" placeholder="Website URL" required class="w-full px-4 py-3 rounded-lg text-gray-800 bg-white placeholder-gray-400 focus:ring-2 focus:ring-accent-400 outline-none">
+          </div>
+          <div>
+            <input type="email" name="email" placeholder="Your email" required class="w-full px-4 py-3 rounded-lg text-gray-800 bg-white placeholder-gray-400 focus:ring-2 focus:ring-accent-400 outline-none">
+          </div>
+          <div>
+            <input type="text" name="topic" placeholder="What topic should we write about?" class="w-full px-4 py-3 rounded-lg text-gray-800 bg-white placeholder-gray-400 focus:ring-2 focus:ring-accent-400 outline-none">
+          </div>
+          <button type="submit" class="w-full bg-accent-500 text-white py-4 rounded-lg font-bold text-lg hover:bg-accent-600 transition shadow-lg">Get My Free Sample →</button>
+        </form>
+        <p class="text-xs text-blue-200 mt-4">No credit card required. No obligation. Just great content.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-100 px-6">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="text-sm text-gray-500">© 2026 AceContent Co. All rights reserved.</div>
+      <div class="flex gap-6 text-sm text-gray-500">
+        <a href="mailto:hello@acecontent.co" class="hover:text-brand-700 transition">hello@acecontent.co</a>
+        <a href="#services" class="hover:text-brand-700 transition">Services</a>
+        <a href="#pricing" class="hover:text-brand-700 transition">Pricing</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
